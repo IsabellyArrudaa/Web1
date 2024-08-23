@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-color: rgb(255, 250, 241);
+    background-position: center;
+    text-align: center;
+    background-image: url('imagem/img.jpg');
+}
+
+/*topo da tabela*/
+table thead {
+    background-color: rgb(48, 31, 1);;
+    color: #ffffff;
+}
+
+
+table thead th {
+    padding: 10px; 
+    font-weight: bold;
+    text-align: center; 
+    font-size: 18px;
+}
+
+
+table tbody td {
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+header {
+    background-color: rgb(48, 31, 1);
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+    font-family: "Julius Sans One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+form label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+
+button {
+    display: inline-block;
+    background-color:  rgb(48, 31, 1);
+    color: #ffffff;
+    padding: 0.75em 1.5em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+
+.btn {
+    padding: 10px 15px;
+    text-decoration: underline;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 3px;
+    background-color:  rgb(48, 31, 1);
+}
+
+
+.btn:hover {
+    background-color:  rgb(177, 114, 7);
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 50px 20px;
+    margin: -3px 0 0 0; 
+    color:  rgb(252, 249, 243);
+    margin: 40px 0 0 0; 
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: "Julius Sans One";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    color:  rgb(252, 249, 243);
+    margin: 40px 0 0 0; 
+}
+
+footer {
+    background-color: rgb(252, 249, 243);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: rgb(48, 31, 1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
